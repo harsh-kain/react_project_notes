@@ -1,0 +1,831 @@
+{
+  "type": "excalidraw",
+  "version": 2,
+  "source": "https://excalidraw.com",
+  "elements": [
+    {
+      "id": "vWj-4IjW3lWGNA4rVF4CS",
+      "type": "text",
+      "x": 137.3393717010871,
+      "y": 269.00634246595934,
+      "width": 594.2998046875,
+      "height": 35,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "hachure",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 0,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "roundness": null,
+      "seed": 15260862,
+      "version": 191,
+      "versionNonce": 1801525474,
+      "isDeleted": false,
+      "boundElements": [
+        {
+          "id": "Fs7geUdnYj1bDrZaOEeEA",
+          "type": "arrow"
+        },
+        {
+          "id": "lJN9gKa6KpwqLHMyF7SQX",
+          "type": "arrow"
+        }
+      ],
+      "updated": 1698947190071,
+      "link": null,
+      "locked": false,
+      "text": "React Js by Namestey React | Episode 1  ",
+      "fontSize": 28,
+      "fontFamily": 1,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "baseline": 25,
+      "containerId": null,
+      "originalText": "React Js by Namestey React | Episode 1  ",
+      "lineHeight": 1.25
+    },
+    {
+      "id": "lBxLyurnr0V9fsSvSsHQP",
+      "type": "arrow",
+      "x": 1035.3019533627048,
+      "y": 731.5093892721419,
+      "width": 133.93485830122722,
+      "height": 127.83671717855009,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "hachure",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 0,
+      "opacity": 100,
+      "groupIds": [
+        "f8HzJyIRRhK1g5xJmE_p3"
+      ],
+      "frameId": null,
+      "roundness": {
+        "type": 2
+      },
+      "seed": 246534206,
+      "version": 1250,
+      "versionNonce": 477175458,
+      "isDeleted": false,
+      "boundElements": null,
+      "updated": 1698946916366,
+      "link": null,
+      "locked": false,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          30.59407026498951,
+          68.72670758812251
+        ],
+        [
+          133.93485830122722,
+          127.83671717855009
+        ]
+      ],
+      "lastCommittedPoint": null,
+      "startBinding": {
+        "elementId": "SmQJOwAlK_rdYIZHEwjPp",
+        "focus": -0.16504891646896075,
+        "gap": 6.8181818181819835
+      },
+      "endBinding": {
+        "elementId": "nyOrsCCQdBNZ54kICn5b7",
+        "focus": -0.7826051315681641,
+        "gap": 15.454545454545269
+      },
+      "startArrowhead": null,
+      "endArrowhead": "triangle"
+    },
+    {
+      "id": "SmQJOwAlK_rdYIZHEwjPp",
+      "type": "text",
+      "x": 774.0778418095123,
+      "y": 689.6912074539599,
+      "width": 427.643798828125,
+      "height": 35,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "hachure",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 0,
+      "opacity": 100,
+      "groupIds": [
+        "FgthbcDKdu0SLl8bQHrRG",
+        "F2Ea-W_PujbPPZJruM4QY",
+        "f8HzJyIRRhK1g5xJmE_p3"
+      ],
+      "frameId": null,
+      "roundness": null,
+      "seed": 616573118,
+      "version": 579,
+      "versionNonce": 1575687998,
+      "isDeleted": false,
+      "boundElements": [
+        {
+          "id": "lBxLyurnr0V9fsSvSsHQP",
+          "type": "arrow"
+        }
+      ],
+      "updated": 1698946916134,
+      "link": null,
+      "locked": false,
+      "text": "Different ways to inject react",
+      "fontSize": 28,
+      "fontFamily": 1,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "baseline": 25,
+      "containerId": null,
+      "originalText": "Different ways to inject react",
+      "lineHeight": 1.25
+    },
+    {
+      "id": "gtnBB5xwZdxZW_1RcPAd1",
+      "type": "text",
+      "x": 1241.0549934821138,
+      "y": 823.2218065405822,
+      "width": 384.37969970703125,
+      "height": 25,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "hachure",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 0,
+      "opacity": 100,
+      "groupIds": [
+        "dkEjlzkWN0nB2aegoX9Io",
+        "FgthbcDKdu0SLl8bQHrRG",
+        "F2Ea-W_PujbPPZJruM4QY",
+        "f8HzJyIRRhK1g5xJmE_p3"
+      ],
+      "frameId": null,
+      "roundness": null,
+      "seed": 1076760866,
+      "version": 449,
+      "versionNonce": 908124094,
+      "isDeleted": false,
+      "boundElements": [
+        {
+          "id": "lBxLyurnr0V9fsSvSsHQP",
+          "type": "arrow"
+        }
+      ],
+      "updated": 1698946916134,
+      "link": null,
+      "locked": false,
+      "text": "CDN (content delivery network { link })",
+      "fontSize": 20,
+      "fontFamily": 1,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "baseline": 18,
+      "containerId": null,
+      "originalText": "CDN (content delivery network { link })",
+      "lineHeight": 1.25
+    },
+    {
+      "id": "AMetkdZk91vfHoNSXJiB7",
+      "type": "text",
+      "x": 1252.5617882010686,
+      "y": 870.267261086036,
+      "width": 264.0638427734375,
+      "height": 20,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "hachure",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 0,
+      "opacity": 100,
+      "groupIds": [
+        "dkEjlzkWN0nB2aegoX9Io",
+        "FgthbcDKdu0SLl8bQHrRG",
+        "F2Ea-W_PujbPPZJruM4QY",
+        "f8HzJyIRRhK1g5xJmE_p3"
+      ],
+      "frameId": null,
+      "roundness": null,
+      "seed": 234464766,
+      "version": 577,
+      "versionNonce": 816461822,
+      "isDeleted": false,
+      "boundElements": null,
+      "updated": 1698946916134,
+      "link": null,
+      "locked": false,
+      "text": "open browser and write react cdn",
+      "fontSize": 16,
+      "fontFamily": 1,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "baseline": 14,
+      "containerId": null,
+      "originalText": "open browser and write react cdn",
+      "lineHeight": 1.25
+    },
+    {
+      "id": "nyOrsCCQdBNZ54kICn5b7",
+      "type": "rectangle",
+      "x": 1184.6913571184773,
+      "y": 781.8581701769452,
+      "width": 527.2727272727274,
+      "height": 133.63636363636374,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "hachure",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 0,
+      "opacity": 100,
+      "groupIds": [
+        "dkEjlzkWN0nB2aegoX9Io",
+        "FgthbcDKdu0SLl8bQHrRG",
+        "F2Ea-W_PujbPPZJruM4QY",
+        "f8HzJyIRRhK1g5xJmE_p3"
+      ],
+      "frameId": null,
+      "roundness": {
+        "type": 3
+      },
+      "seed": 197435966,
+      "version": 572,
+      "versionNonce": 2027849790,
+      "isDeleted": false,
+      "boundElements": [
+        {
+          "id": "lBxLyurnr0V9fsSvSsHQP",
+          "type": "arrow"
+        },
+        {
+          "id": "FTqbDLePEH63TewcAFVuY",
+          "type": "arrow"
+        },
+        {
+          "id": "xNuXtfnQPrjQsWPw9L6nC",
+          "type": "arrow"
+        },
+        {
+          "id": "TqiPlIE3lL5guoKqZu3v_",
+          "type": "arrow"
+        }
+      ],
+      "updated": 1698946916134,
+      "link": null,
+      "locked": false
+    },
+    {
+      "id": "w2KR9MN1JyGD0yMwld3Q7",
+      "type": "text",
+      "x": 1887.4186298457498,
+      "y": 542.1880943174183,
+      "width": 342.3677978515625,
+      "height": 180,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "hachure",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 0,
+      "opacity": 100,
+      "groupIds": [
+        "FgthbcDKdu0SLl8bQHrRG",
+        "F2Ea-W_PujbPPZJruM4QY",
+        "f8HzJyIRRhK1g5xJmE_p3"
+      ],
+      "frameId": null,
+      "roundness": null,
+      "seed": 1501567038,
+      "version": 695,
+      "versionNonce": 1313579390,
+      "isDeleted": false,
+      "boundElements": [
+        {
+          "id": "FTqbDLePEH63TewcAFVuY",
+          "type": "arrow"
+        }
+      ],
+      "updated": 1698946916134,
+      "link": null,
+      "locked": false,
+      "text": "crossorigin - The crossorigin attribute \nsets the mode of the request to an \nHTTP CORS Request. Web pages often \nmake requests to load resources on \nother servers. Here is where CORS \ncomes in. A cross-origin request is a \nrequest for a resource (e.g. style sheets, \niframes, images, fonts, or scripts) from \nanother domain.",
+      "fontSize": 16,
+      "fontFamily": 1,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "baseline": 174,
+      "containerId": null,
+      "originalText": "crossorigin - The crossorigin attribute \nsets the mode of the request to an \nHTTP CORS Request. Web pages often \nmake requests to load resources on \nother servers. Here is where CORS \ncomes in. A cross-origin request is a \nrequest for a resource (e.g. style sheets, \niframes, images, fonts, or scripts) from \nanother domain.",
+      "lineHeight": 1.25
+    },
+    {
+      "id": "FTqbDLePEH63TewcAFVuY",
+      "type": "arrow",
+      "x": 1713.1687314408578,
+      "y": 763.7163031869562,
+      "width": 157.8862620412558,
+      "height": 146.27024005701037,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "hachure",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 0,
+      "opacity": 100,
+      "groupIds": [
+        "FgthbcDKdu0SLl8bQHrRG",
+        "F2Ea-W_PujbPPZJruM4QY",
+        "f8HzJyIRRhK1g5xJmE_p3"
+      ],
+      "frameId": null,
+      "roundness": {
+        "type": 2
+      },
+      "seed": 983090174,
+      "version": 1262,
+      "versionNonce": 1229938210,
+      "isDeleted": false,
+      "boundElements": null,
+      "updated": 1698946916366,
+      "link": null,
+      "locked": false,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          96.06808022307405,
+          -124.58540573728351
+        ],
+        [
+          157.8862620412558,
+          -146.27024005701037
+        ]
+      ],
+      "lastCommittedPoint": null,
+      "startBinding": {
+        "elementId": "nyOrsCCQdBNZ54kICn5b7",
+        "focus": 0.632466441313819,
+        "gap": 18.141866989989012
+      },
+      "endBinding": {
+        "elementId": "w2KR9MN1JyGD0yMwld3Q7",
+        "focus": 0.5366976332776525,
+        "gap": 16.36363636363626
+      },
+      "startArrowhead": null,
+      "endArrowhead": "triangle"
+    },
+    {
+      "id": "MFhLen7AyG5JxZwtoOLwi",
+      "type": "text",
+      "x": 1889.2368116639323,
+      "y": 783.6763519951284,
+      "width": 594.8796997070312,
+      "height": 180,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "hachure",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 0,
+      "opacity": 100,
+      "groupIds": [
+        "FgthbcDKdu0SLl8bQHrRG",
+        "F2Ea-W_PujbPPZJruM4QY",
+        "f8HzJyIRRhK1g5xJmE_p3"
+      ],
+      "frameId": null,
+      "roundness": null,
+      "seed": 1430791522,
+      "version": 900,
+      "versionNonce": 1707338302,
+      "isDeleted": false,
+      "boundElements": [
+        {
+          "id": "xNuXtfnQPrjQsWPw9L6nC",
+          "type": "arrow"
+        }
+      ],
+      "updated": 1698946916134,
+      "link": null,
+      "locked": false,
+      "text": "The React CDN contain two links \n\nreact.js :- Its the core of the react \n\nreactDom.js :- And the dom is used to perform operation on dom and \nit help to do some changes in dom like creating a child and other operation\nthe dom link was added because react does not works only in browser \nwhich also work for mobile and other like react native \n",
+      "fontSize": 16,
+      "fontFamily": 1,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "baseline": 174,
+      "containerId": null,
+      "originalText": "The React CDN contain two links \n\nreact.js :- Its the core of the react \n\nreactDom.js :- And the dom is used to perform operation on dom and \nit help to do some changes in dom like creating a child and other operation\nthe dom link was added because react does not works only in browser \nwhich also work for mobile and other like react native \n",
+      "lineHeight": 1.25
+    },
+    {
+      "id": "xNuXtfnQPrjQsWPw9L6nC",
+      "type": "arrow",
+      "x": 1721.0549934821142,
+      "y": 856.0879753557737,
+      "width": 152.72727272727275,
+      "height": 1.6129218669302645,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "hachure",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 0,
+      "opacity": 100,
+      "groupIds": [
+        "FgthbcDKdu0SLl8bQHrRG",
+        "F2Ea-W_PujbPPZJruM4QY",
+        "f8HzJyIRRhK1g5xJmE_p3"
+      ],
+      "frameId": null,
+      "roundness": {
+        "type": 2
+      },
+      "seed": 2101691682,
+      "version": 1362,
+      "versionNonce": 1279507874,
+      "isDeleted": false,
+      "boundElements": null,
+      "updated": 1698946916366,
+      "link": null,
+      "locked": false,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          152.72727272727275,
+          1.6129218669302645
+        ]
+      ],
+      "lastCommittedPoint": null,
+      "startBinding": {
+        "elementId": "nyOrsCCQdBNZ54kICn5b7",
+        "focus": 0.06510416666667904,
+        "gap": 9.090909090909463
+      },
+      "endBinding": {
+        "elementId": "MFhLen7AyG5JxZwtoOLwi",
+        "focus": 0.13604119331361778,
+        "gap": 15.454545454545269
+      },
+      "startArrowhead": null,
+      "endArrowhead": "triangle"
+    },
+    {
+      "id": "I137nBwTYPDqxepv81XY_",
+      "type": "text",
+      "x": 1877.1545896376729,
+      "y": 1035.0983008187168,
+      "width": 804.8204575283651,
+      "height": 316.3359624924548,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "hachure",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 0,
+      "opacity": 100,
+      "groupIds": [
+        "FgthbcDKdu0SLl8bQHrRG",
+        "F2Ea-W_PujbPPZJruM4QY",
+        "f8HzJyIRRhK1g5xJmE_p3"
+      ],
+      "frameId": null,
+      "roundness": null,
+      "seed": 355737470,
+      "version": 785,
+      "versionNonce": 758115070,
+      "isDeleted": false,
+      "boundElements": [
+        {
+          "id": "TqiPlIE3lL5guoKqZu3v_",
+          "type": "arrow"
+        }
+      ],
+      "updated": 1698946916134,
+      "link": null,
+      "locked": false,
+      "text": "Creating a react element using REACT CDN \n\n<body>\n    <div id=\"id\"></div>\n\n\n    <script crossorigin src=\"https://unpkg.com/react@18/umd/react.development.js\"></script>\n    <script crossorigin src=\"https://unpkg.com/react-dom@18/umd/react-dom.development.js\"></script>\n    \n    <script>\n\n        const heading = React.createElement('h1',  {}, \"Kain\");\n        \n        const root = ReactDOM.createRoot(document.getElementById('id'));\n        root.render(heading)\n\n    </script>\n\n</body>",
+      "fontSize": 13.874384319844513,
+      "fontFamily": 3,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "baseline": 312.99999999999994,
+      "containerId": null,
+      "originalText": "Creating a react element using REACT CDN \n\n<body>\n    <div id=\"id\"></div>\n\n\n    <script crossorigin src=\"https://unpkg.com/react@18/umd/react.development.js\"></script>\n    <script crossorigin src=\"https://unpkg.com/react-dom@18/umd/react-dom.development.js\"></script>\n    \n    <script>\n\n        const heading = React.createElement('h1',  {}, \"Kain\");\n        \n        const root = ReactDOM.createRoot(document.getElementById('id'));\n        root.render(heading)\n\n    </script>\n\n</body>",
+      "lineHeight": 1.2
+    },
+    {
+      "id": "TqiPlIE3lL5guoKqZu3v_",
+      "type": "arrow",
+      "x": 1731.7260719928304,
+      "y": 918.5708702762578,
+      "width": 136.89691253120543,
+      "height": 131.23090952031293,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "hachure",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 0,
+      "opacity": 100,
+      "groupIds": [
+        "FgthbcDKdu0SLl8bQHrRG",
+        "F2Ea-W_PujbPPZJruM4QY",
+        "f8HzJyIRRhK1g5xJmE_p3"
+      ],
+      "frameId": null,
+      "roundness": {
+        "type": 2
+      },
+      "seed": 1400187326,
+      "version": 1276,
+      "versionNonce": 1850096930,
+      "isDeleted": false,
+      "boundElements": null,
+      "updated": 1698946916366,
+      "link": null,
+      "locked": false,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          85.4375926552409,
+          111.37530237538317
+        ],
+        [
+          136.89691253120543,
+          131.23090952031293
+        ]
+      ],
+      "lastCommittedPoint": null,
+      "startBinding": {
+        "elementId": "nyOrsCCQdBNZ54kICn5b7",
+        "focus": -0.7297109245179935,
+        "gap": 19.761987601625606
+      },
+      "endBinding": {
+        "elementId": "I137nBwTYPDqxepv81XY_",
+        "focus": -0.04816781395921622,
+        "gap": 8.531605113636942
+      },
+      "startArrowhead": null,
+      "endArrowhead": "triangle"
+    },
+    {
+      "id": "hEF-oi9ujxaxmX-Prcf3S",
+      "type": "rectangle",
+      "x": 695.5239177696235,
+      "y": 450.77805604410537,
+      "width": 2004.9862761235754,
+      "height": 950.5783148407307,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "hachure",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 0,
+      "opacity": 100,
+      "groupIds": [
+        "F2Ea-W_PujbPPZJruM4QY",
+        "f8HzJyIRRhK1g5xJmE_p3"
+      ],
+      "frameId": null,
+      "roundness": {
+        "type": 3
+      },
+      "seed": 1518764258,
+      "version": 599,
+      "versionNonce": 1605748834,
+      "isDeleted": false,
+      "boundElements": [
+        {
+          "id": "lJN9gKa6KpwqLHMyF7SQX",
+          "type": "arrow"
+        }
+      ],
+      "updated": 1698947190071,
+      "link": null,
+      "locked": false
+    },
+    {
+      "id": "PcnoARQ5JP2Civxauu3ig",
+      "type": "text",
+      "x": -196.3050960921554,
+      "y": 447.553486768135,
+      "width": 246.09375,
+      "height": 48,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "hachure",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 0,
+      "opacity": 100,
+      "groupIds": [
+        "_FzRgFtFbstacqmY9sEn4"
+      ],
+      "frameId": null,
+      "roundness": null,
+      "seed": 806263458,
+      "version": 797,
+      "versionNonce": 557078498,
+      "isDeleted": false,
+      "boundElements": [
+        {
+          "id": "Fs7geUdnYj1bDrZaOEeEA",
+          "type": "arrow"
+        }
+      ],
+      "updated": 1698947193503,
+      "link": null,
+      "locked": false,
+      "text": "Why react is Fastest \n",
+      "fontSize": 20,
+      "fontFamily": 3,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "baseline": 43,
+      "containerId": null,
+      "originalText": "Why react is Fastest \n",
+      "lineHeight": 1.2
+    },
+    {
+      "id": "seILSbp1Z9piXR1rqiH1U",
+      "type": "text",
+      "x": -196.3050960921554,
+      "y": 489.9079675681715,
+      "width": 590.625,
+      "height": 172.79999999999998,
+      "angle": 0,
+      "strokeColor": "#1971c2",
+      "backgroundColor": "transparent",
+      "fillStyle": "hachure",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 0,
+      "opacity": 100,
+      "groupIds": [
+        "_FzRgFtFbstacqmY9sEn4"
+      ],
+      "frameId": null,
+      "roundness": null,
+      "seed": 1848587618,
+      "version": 329,
+      "versionNonce": 57281314,
+      "isDeleted": false,
+      "boundElements": null,
+      "updated": 1698947193503,
+      "link": null,
+      "locked": false,
+      "text": "\nChanging the DOM Tree is the costly operation which ever seen\nand all the framework and library are also tries to optimized \nthis process.\n\nAnd react also do something similar as the mentioned \nwhen a tree was updated this check and compare previous and \nnew generated DOM tree. And it replace only changes nodes with \nnew DOM tree ",
+      "fontSize": 16,
+      "fontFamily": 3,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "baseline": 169,
+      "containerId": null,
+      "originalText": "\nChanging the DOM Tree is the costly operation which ever seen\nand all the framework and library are also tries to optimized \nthis process.\n\nAnd react also do something similar as the mentioned \nwhen a tree was updated this check and compare previous and \nnew generated DOM tree. And it replace only changes nodes with \nnew DOM tree ",
+      "lineHeight": 1.2
+    },
+    {
+      "id": "Fs7geUdnYj1bDrZaOEeEA",
+      "type": "arrow",
+      "x": 348.71452849775596,
+      "y": 313.61054381244435,
+      "width": 285.26779905632594,
+      "height": 142.1561484421709,
+      "angle": 0,
+      "strokeColor": "#1971c2",
+      "backgroundColor": "transparent",
+      "fillStyle": "hachure",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 0,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "roundness": {
+        "type": 2
+      },
+      "seed": 1968367522,
+      "version": 187,
+      "versionNonce": 990201698,
+      "isDeleted": false,
+      "boundElements": null,
+      "updated": 1698947193503,
+      "link": null,
+      "locked": false,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          -285.26779905632594,
+          142.1561484421709
+        ]
+      ],
+      "lastCommittedPoint": null,
+      "startBinding": {
+        "elementId": "vWj-4IjW3lWGNA4rVF4CS",
+        "focus": 0.09334982636260769,
+        "gap": 9.604201346485013
+      },
+      "endBinding": {
+        "elementId": "PcnoARQ5JP2Civxauu3ig",
+        "focus": 0.6134358995051162,
+        "gap": 13.658075533585418
+      },
+      "startArrowhead": null,
+      "endArrowhead": "triangle"
+    },
+    {
+      "id": "lJN9gKa6KpwqLHMyF7SQX",
+      "type": "arrow",
+      "x": 492.1937185751803,
+      "y": 311.5241837679979,
+      "width": 208.6360044446472,
+      "height": 115.79298246677928,
+      "angle": 0,
+      "strokeColor": "#1971c2",
+      "backgroundColor": "transparent",
+      "fillStyle": "hachure",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 0,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "roundness": {
+        "type": 2
+      },
+      "seed": 1266778622,
+      "version": 50,
+      "versionNonce": 726641826,
+      "isDeleted": false,
+      "boundElements": null,
+      "updated": 1698947190071,
+      "link": null,
+      "locked": false,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          208.6360044446472,
+          115.79298246677928
+        ]
+      ],
+      "lastCommittedPoint": null,
+      "startBinding": {
+        "elementId": "vWj-4IjW3lWGNA4rVF4CS",
+        "focus": -0.03841790771769007,
+        "gap": 7.517841302038562
+      },
+      "endBinding": {
+        "elementId": "hEF-oi9ujxaxmX-Prcf3S",
+        "focus": -0.05300994644899152,
+        "gap": 23.460889809328194
+      },
+      "startArrowhead": null,
+      "endArrowhead": "triangle"
+    }
+  ],
+  "appState": {
+    "gridSize": null,
+    "viewBackgroundColor": "#ffffff"
+  },
+  "files": {}
+}
