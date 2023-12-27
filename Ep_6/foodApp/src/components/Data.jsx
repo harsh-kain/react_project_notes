@@ -1,40 +1,19 @@
 /* eslint-disable no-unused-vars */
-import mockData from "../utils/mockData";
 import Cards from "./Cards";
 import { useState, useEffect } from "react";
-// import React from 'react'
-
+import Shimmer from "../Shimmer/Shimmer";
+import { Link } from "react-router-dom";
+import useHomePage from "../utils/useHomePage";
 const Data = () => {
-  const [resData, setResData] = useState(mockData);
-
-  const [filterData, setFilterData] = useState([]);
-  const [searchFilter, setSearchFilter] = useState("");
-  const fetchData = async () => {
-    const data = await fetch(
-      "https://www.swiggy.com/mapi/homepage/getCards?lat=28.6764446&lng=77.42214520000002"
-    );
-
-    const json = await data.json();
-    setResData(
-      json.data.success.cards[4].gridWidget.gridElements.infoWithStyle
-        .restaurants
-    );
-    setFilterData(
-      json.data.success.cards[4].gridWidget.gridElements.infoWithStyle
-        .restaurants
-    );
-    
-  };
-
-
-  useEffect(() => {
-    fetchData();
-  }, []);
+  
+  const filterData = useHomePage();
+  
 
   return (
     <>
-      <div className="container flex flex-wrap justify-center bg-slate-700 items-center mx-auto px-5">
-        <div className="relative bg-slate-400	">
+      <div className="container flex flex-wrap justify-center items-center mx-auto px-5">
+        {/* search filter  */}
+        {/* <div className="relative bg-slate-400	">  
           <div className="absolute inset-y-0 start-0 flex items-center ps-3 pointer-events-none">
             <svg
               className="w-4 h-4 text-gray-500 dark:text-white"
@@ -50,7 +29,7 @@ const Data = () => {
           <input
             type="search"
             id="default-search"
-            className="block w-full p-4 ps-10 text-sm text-white border border-gray-300 rounded-lg bg-gray-50 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+            assName="block w-full p-4 ps-10 text-sm text-white border border-gray-300 rounded-lg bg-gray-50 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
             placeholder="search restro"
             required 
             value={searchFilter}
@@ -73,15 +52,14 @@ const Data = () => {
           >
             Search
           </button>
-        </div>
+        </div> */}
 
-        {filterData.map((val, index) => (
-          <Cards details={val} key={index} />
-          // console.log(val.info.name)
-        ))}
+        {filterData.length > 0 ? filterData.map((val, index) => (
+          <Link key={val.info.id} to={"/restaurants/" + val.info.id}><Cards details={val} key={index} /></Link>
+
+        )) : <Shimmer />}
       </div>
     </>
   );
-};
-
+}
 export default Data;

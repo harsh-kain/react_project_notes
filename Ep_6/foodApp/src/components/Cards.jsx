@@ -3,17 +3,15 @@
 import { CDN_URL } from "../utils/constant";
 const Cards = (props) => {
     const { details } = props;
-    // console.log(details.info);
     const {
         cloudinaryImageId,
         name,
         avgRating,
         cuisines,
         costForTwo,
-        deliveryTime,
+        sla,
     } = details.info || {};
 
-    //   const {deliveryTime} = details.info.sta;
     return (
         <>
             
@@ -23,12 +21,13 @@ const Cards = (props) => {
                 <div className="px-6 py-4">
                     <div className="font-bold text-xl mb-2">{name}</div>
                     <p className="text-gray-700 text-base">{avgRating} ⭐</p>
-                    {/* <p className="text-gray-700 text-base">{cuisines.join(", ")}</p> */}
+                    <p className="text-gray-700 font-bold text-base">{cuisines.join(', ')}</p>
+                    
                 </div>
 
                 <div className="px-6 pt-4 pb-2">
                     <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">${costForTwo}</span>
-                    <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">Delivered in : {deliveryTime} min</span>
+                    <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">Delivered in : {sla.deliveryTime} min</span>
 
                 </div>
             </div>

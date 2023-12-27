@@ -1,15 +1,14 @@
+/* eslint-disable no-unused-vars */
 import './App.css'
-import Home from './components/Home'
-import Data from './components/Data'
+import Navbar from './components/Nabar'   
 import Footer from './components/Footer'
+import {Outlet} from 'react-router-dom'
 function App() {
 
   return (
     <>
-      <Home />    
-      <div className="container flex wrap mx-auto px-5">
-        <Data />
-      </div>
+      <Navbar />   
+      <Outlet />   
       <Footer />
     </>
   )
