@@ -1,0 +1,10 @@
+Hey guys,
+This is Harsh kain
+
+I'm facing a bug in this app and the bug is when i'm in inspect mode then api will fetched the data but not in normal mode. 
+
+If you're solved this problem then please ping me on - +91 8700026337
+
+and explain what's the problem and why it occurr.
+
+It would be a great help for me.
