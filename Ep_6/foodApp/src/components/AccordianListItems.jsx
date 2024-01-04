@@ -4,7 +4,6 @@ import { IMAGE } from "../utils/constant";
 import IsVeg from "./IsVeg";
 
 const AccordianListItems = ({data}) => {
-    // console.log(data);
     return (
         <>
 
@@ -14,7 +13,7 @@ const AccordianListItems = ({data}) => {
                         <IsVeg vegData={val?.card?.info?.isVeg}/>
 
                         <h1 className="font-semibold sm:">{val?.card?.info?.name}</h1>
-                        <h4>₹ {val?.card?.info?.price / 100}</h4>
+                        <h4>₹ {val?.card?.info?.price / 100 || val?.card?.info?.defaultPrice / 100}</h4>
                         <p className="text-slate-500 sm:text-sm md:text-base">{val?.card?.info?.description}</p>
                     </div>
 

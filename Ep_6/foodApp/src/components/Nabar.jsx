@@ -1,12 +1,14 @@
 /* eslint-disable no-unused-vars */
-import { Fragment, useState } from 'react'
+import { Fragment, useContext, useState } from 'react'
 import { Dialog, Disclosure, Popover, Transition } from '@headlessui/react'
+
 import {Link , NavLink} from 'react-router-dom'
 import {
     Bars3Icon,
     XMarkIcon,  
 } from '@heroicons/react/24/outline'
 import { ChevronDownIcon, PhoneIcon, PlayCircleIcon } from '@heroicons/react/20/solid'
+import userContext from '../utils/userContext'
 
 const callsToAction = [
     { name: 'Watch demo', to: '#', icon: PlayCircleIcon },
@@ -20,6 +22,8 @@ function classNames(...classes) {
 export default function Navbar() {
     const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
 
+    const {loggedInUser} = useContext(userContext);
+    
     return (
         <header className="bg-white">
             <nav className="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8" aria-label="Global">
@@ -53,9 +57,10 @@ export default function Navbar() {
                     <Link to="#" className="text-sm font-semibold leading-6 text-gray-900">
                         Company
                     </Link>
+                    
                 </Popover.Group>
                 <div className="hidden lg:flex lg:flex-1 lg:justify-end">       
-                    <button type="button" className="text-white bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2">Blue</button>
+                    <button type="button" className="text-white bg-gradient-to-r from-blue-500 via-blue-600 to-blue-700 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2">{loggedInUser}</button>
 
                 </div>
             </nav>
