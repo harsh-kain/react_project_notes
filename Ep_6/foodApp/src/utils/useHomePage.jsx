@@ -12,7 +12,6 @@ const useHomePage = () => {
     const fetchData = async () => {
         const data = await fetch(MENU_API)
         const json = await data.json();
-        // console.log(json.data.cards[4]);
         setResData(json?.data?.cards[4]?.card?.card?.gridElements?.infoWithStyle?.restaurants)
     }
 

@@ -1,6 +1,7 @@
 /* eslint-disable no-unused-vars */
 import { Fragment, useContext, useState } from 'react'
 import { Dialog, Disclosure, Popover, Transition } from '@headlessui/react'
+import { FaShoppingCart } from "@react-icons/all-files/fa/FaShoppingCart";
 
 import {Link , NavLink} from 'react-router-dom'
 import {
@@ -9,7 +10,7 @@ import {
 } from '@heroicons/react/24/outline'
 import { ChevronDownIcon, PhoneIcon, PlayCircleIcon } from '@heroicons/react/20/solid'
 import userContext from '../utils/userContext'
-
+import { useSelector } from 'react-redux'
 const callsToAction = [
     { name: 'Watch demo', to: '#', icon: PlayCircleIcon },
     { name: 'Contact sales', to: '#', icon: PhoneIcon },
@@ -23,6 +24,9 @@ export default function Navbar() {
     const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
 
     const {loggedInUser} = useContext(userContext);
+
+    // congiure my store using useSelector hook
+    const cartItems = useSelector((store) => store.cart.items);
     
     return (
         <header className="bg-white">
@@ -54,8 +58,8 @@ export default function Navbar() {
                     <Link to="grocery" className="text-sm font-semibold leading-6 text-gray-900">
                         Grocery
                     </Link>
-                    <Link to="#" className="text-sm font-semibold leading-6 text-gray-900">
-                        Company
+                    <Link to="cart" className="text-sm font-semibold leading-6 text-gray-900">Cart 
+                         <span className='bg-slate-600 p-1 m-1 text-white rounded-md'>{cartItems.length}</span>
                     </Link>
                     
                 </Popover.Group>
@@ -104,7 +108,7 @@ export default function Navbar() {
                                     to="#"
                                     className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
                                 >
-                                    Company
+                                    <span className='bg-slate-600 p-1 text-white rounded-md'><FaShoppingCart />{cartItems}</span>
                                 </Link>
                                 <Link
                                     to="/grocery"

@@ -2,7 +2,6 @@ import useOnlineStatus from "../utils/useOnlineStatus"
 export default function Example() {
 
   const onlineStatus = useOnlineStatus();
-  console.log(onlineStatus);
   // if (onlineStatus === false) {
   //   <h1>Youre offline!! Check your internet connection</h1>
   // }
@@ -61,6 +60,8 @@ export default function Example() {
 
 
       </div>
+
+      
 
     </div>
   )

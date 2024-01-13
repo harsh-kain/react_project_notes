@@ -2,8 +2,15 @@
 
 import { IMAGE } from "../utils/constant";
 import IsVeg from "./IsVeg";
-
+import { useDispatch } from "react-redux";
+import { addItem } from "../utils/cartSlice";
 const AccordianListItems = ({data}) => {
+    const dispatch = useDispatch();
+    const handleAddItem = (data) =>{
+
+        // console.log(data.card);
+        dispatch(addItem(data.card));
+    }
     return (
         <>
 
@@ -18,8 +25,9 @@ const AccordianListItems = ({data}) => {
                     </div>
 
                     
-                    <div className="w-1/4 flex justify-end items-center">
-                        <img src={IMAGE + val?.card?.info?.imageId} alt="" className="sm:w-24 sm:h-24 md:w-36 md:h-36 object-cover rounded-lg"/>
+                    <div className="w-1/4 flex relative justify-center items-center">
+                        <img src={IMAGE + val?.card?.info?.imageId} alt="" className="sm:w-24 sm:h-24 md:w-36 md:h-36 object-cover rounded-lg relative"/>
+                        <button className="bg-slate-300 opacity-90  rounded-md cursor-pointer absolute bottom-[10px] py-2 px-4 " onClick={() => handleAddItem(val)}>Add</button>
                     </div>
 
                 </div>

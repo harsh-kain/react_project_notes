@@ -8,6 +8,7 @@ import {createBrowserRouter,RouterProvider} from 'react-router-dom'
 import App from './App.jsx'
 import RestaurantsMenu from './components/RestaurantsMenu.jsx'
 import { lazy , Suspense} from 'react'
+import CartPage from './pages/CartPage.jsx'
 // import Grocery from './components/Grocery.jsx'
 
 
@@ -38,6 +39,10 @@ const router = createBrowserRouter([
       {   
         path: "restaurants/:resId",
         element: <RestaurantsMenu />
+      },
+      {   
+        path: "/cart",
+        element: <CartPage />
       },
       
     ]
