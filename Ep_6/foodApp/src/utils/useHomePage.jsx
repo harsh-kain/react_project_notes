@@ -1,5 +1,6 @@
-import { MENU_API } from './constant';
-import { useState,useEffect } from 'react';
+/* eslint-disable no-unused-vars */
+import { MENU_API , CROSULE_API} from './constant';
+import { useState, useEffect } from 'react';
 const useHomePage = () => {
 
     const [resData, setResData] = useState([]);
@@ -10,12 +11,18 @@ const useHomePage = () => {
 
 
     const fetchData = async () => {
-        const data = await fetch(MENU_API)
-        const json = await data.json();
-        setResData(json?.data?.cards[4]?.card?.card?.gridElements?.infoWithStyle?.restaurants)
-    }
 
+        try {
+            const response = await fetch(MENU_API);
+            const data = await response.json();
+            setResData(data);
+        } catch (error) {
+            console.error('Error fetching data:', error);
+            throw error;
+        }
+
+    }
     return resData;
-} 
+}
 
 export default useHomePage

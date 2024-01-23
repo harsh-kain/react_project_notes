@@ -21,7 +21,7 @@ const RestaurantsMenu = () => {
             <div className="lg:w-screen  px-4 flex flex-col justify-center items-center">
                 <RestaurantDetails  data={resInfo}/>
                 <OffersRestaurantMenu data={resInfo}/>
-                <DetailPageAccordian data={resInfo}/>
+                <DetailPageAccordian data={resInfo}/> 
             </div>
         </>
     )

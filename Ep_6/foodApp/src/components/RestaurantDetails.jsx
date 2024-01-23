@@ -1,8 +1,7 @@
 /* eslint-disable react/prop-types */
 import { IMAGE } from "../utils/constant";
 const RestaurantDetails = ({data}) => {
-    let {name ,cloudinaryImageId, avgRatingString, locality, areaName, cuisines, availability, costForTwoMessage, feeDetails } = data.cards[0].card.card.info || {}
-
+    let {name ,cloudinaryImageId, avgRatingString, locality, areaName, cuisines, availability, costForTwoMessage, feeDetails } = data.cards[2].card.card.info || {}
   return (
     <>
         <section className="text-gray-700 w-screen md:w-screen lg:w-3/4 body-font border-dashed border-b-2 border-black m-10 overflow-hidden">

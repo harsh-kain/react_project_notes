@@ -2,7 +2,7 @@
 import OfferCard from "./OfferCard"
 
 const OffersRestaurantMenu = ({ data }) => {
-  let allOffer = data?.cards[1]?.card?.card?.gridElements?.infoWithStyle?.offers
+  let allOffer = data?.cards[3]?.card?.card?.gridElements?.infoWithStyle?.offers
   return (
     <>
       <div className=" px-10  flex justify-center items-center flex-wrap ">

@@ -11,3 +11,10 @@ export const IMAGE = "https://media-assets.swiggy.com/swiggy/image/upload/fl_los
 
 
 export const DETAILS_PAGE = "https://www.swiggy.com/dapi/menu/pl?page-type=REGULAR_MENU&complete-menu=true&lat=28.6643923&lng=77.4465323&restaurantId="
+
+
+export const LOCATION_API = "https://www.swiggy.com/dapi/misc/place-autocomplete?input=utt&types="
+
+export const CROSULE_API = "https://www.swiggy.com/mapi/restaurants/list/v5?offset=0&is-seo-homepage-enabled=true&lat=28.6736879&lng=77.4243786&carousel=true&"
+
+// https://www.swiggy.com/dapi/misc/place-autocomplete?input=delhi&types=
